@@ -1,23 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PAGE FOR LEARNING CSS</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div id="first">
-    first
-  </div>
-  <div id="second">
-  second
-  </div>
-  <section class="red">
-  red
-  </section>
-  <section class="red-blue and bg-blue">
-  red-blue and bg-blue
-  </section>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        font-family: 'Instrument Serif', serif;
+      }
+
+      header {
+        background-color: #002945;
+        color: #fff;
+        padding: 20px;
+      }
+      .intro{
+        text-align: center;
+      }
+
+      .navbar{
+        background-color: #333;
+        list-style-type: none;
+        display: inline-block;
+        height: 29px;
+        width: 500px;
+        list-style-position: outside;
+        
+        overflow: auto;
+      }
+
+      section {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+
+      h1 {
+        color: #3498db;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #827272;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .button:hover {
+        background-color: #2dbe90;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="intro">My Introduction</h1>
+      <div class="navbar">
+        <ul>
+            <li>HOME</li>
+            <li>PROJECTS</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+        </ul>
+      </div>
+    </header>
+
+    <section>
+      <h1>Hello, I'm Harsh</h1>
+      <p>
+        Welcome to my website. I am passionate about Programming. This is a
+        brief introduction to let you know more about me.
+      </p>
+
+      <p>
+        Feel free to explore and connect with me. If you have any questions or
+        just want to say hello, don't hesitate to reach out.
+      </p>
+
+      <a href="#" class="button">Mail me </a>
+    </section>
+  </body>
 </html>
